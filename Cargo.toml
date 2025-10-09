@@ -1,8 +1,10 @@
 [package]
 name = "reqwest-client-bearer-auth"
 description = "A crate to add a more ergonomic way to add bearer authentication to reqwest clients"
+license = "MIT OR Apache-2.0"
 version = "0.1.0"
 edition = "2024"
+repository = "https://github.com/JMANN240/reqwest-client-bearer-auth"
 
 [dependencies]
 reqwest = "0.12.23"
