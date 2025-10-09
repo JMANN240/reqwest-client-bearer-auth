@@ -1,0 +1,11 @@
+[package]
+name = "reqwest-client-bearer-auth"
+description = "A crate to add a more ergonomic way to add bearer authentication to reqwest clients"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+reqwest = "0.12.23"
+
+[features]
+blocking = ["reqwest/blocking"]
